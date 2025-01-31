@@ -1,12 +1,12 @@
-# unidb.js
+# unidb
 
-**unidb.js** is a simple and powerful Node.js package that allows you to connect to multiple databases (PostgreSQL, MongoDB, MySQL, Redis, etc.) with a single command.
+**unidb** is a simple and powerful Node.js package that allows you to connect to multiple databases (PostgreSQL, MongoDB, MySQL, Redis, etc.) with a single command.
 
 ## 🚀 Installation
 
-Install **unidb.js** via npm:
+Install **unidb** via npm:
 ```sh
-npm install unidb.js
+npm install unidb
 ```
 
 ## 📌 Usage
@@ -16,7 +16,7 @@ Import the package and connect to any supported database using a single function
 ### 1️⃣ **PostgreSQL**
 ```javascript
 require("dotenv").config();
-const db = require("unidb.js");
+const db = require("unidb");
 
 (async () => {
     const postgres = await db.connect(process.env.POSTGRES_URL); ##for sequelize use "await connect(process.env.POSTGRES_URL, true);"
@@ -27,7 +27,7 @@ const db = require("unidb.js");
 ### 2️⃣ **MongoDB**
 ```javascript
 require("dotenv").config();
-const db = require("unidb.js");
+const db = require("unidb");
 
 (async () => {
     const mongo = await db.connect(process.env.MONGO_URL);
@@ -38,7 +38,7 @@ const db = require("unidb.js");
 ### 3️⃣ **MySQL**
 ```javascript
 require("dotenv").config();
-const db = require("unidb.js");
+const db = require("unidb");
 
 (async () => {
     const mysql = await db.connect(process.env.MYSQL_URL);
@@ -49,7 +49,7 @@ const db = require("unidb.js");
 ### 4️⃣ **Redis**
 ```javascript
 require("dotenv").config();
-const db = require("unidb.js");
+const db = require("unidb");
 
 (async () => {
     const redis = await db.connect(process.env.REDIS_URL);

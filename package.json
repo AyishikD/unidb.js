@@ -1,5 +1,5 @@
 {
-    "name": "unidb.js",
+    "name": "unidb",
     "version": "1.0.0",
     "description": "A universal database connector for SQL, PostgreSQL, MongoDB, Redis, and more with a single command.",
     "main": "index.js",

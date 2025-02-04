@@ -1,6 +1,6 @@
 {
-    "name": "unidb",
-    "version": "1.0.0",
+    "name": "alldbconnect",
+    "version": "1.2.0",
     "description": "A universal database connector for SQL, PostgreSQL, MongoDB, Redis, and more with a single command.",
     "main": "index.js",
     "scripts": {
